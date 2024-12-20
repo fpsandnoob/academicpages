@@ -33,12 +33,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
+      - name: Setup Ruby, JRuby and TruffleRuby
+        # You may pin to the exact commit or the version.
+        # uses: ruby/setup-ruby@3783f195e29b74ae398d7caca108814bbafde90e
+        uses: ruby/setup-ruby@v1.180.1
         with:
-          ruby-version: '3.1' # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
+          bundler: true 
+          working-directory: "${{ steps.pages.outputs.base_path }}"
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5

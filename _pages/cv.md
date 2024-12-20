@@ -11,35 +11,32 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Computer Science, Sichuan University, 2026 (expected)
+<!-- * M.S. in Jekyll, GitHub University, 2014 -->
+* B.S. in Internet of Things (IoT) engineering, GitHub University, 2020
 
-Work experience
+Projects
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* A study of low-dose CT imaging methods for small samples (As a researcher)
+  * National Natural Science Foundation of China (NSFC), 2020.01 - 2023.01
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Awards and Honors
+======
+* Doctoral Innovation Scholarship, Sichuan University, 2024.11
+* Outstanding Student Award, Sichuan University, 2024.09
+* First Class Scholarship Award, Sichuan University, 2024.09
+* First Class Scholarship Award, Sichuan University, 2020.09
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Languages
+  * Chinese
+  * English
+* Programming Skills
+  * Python
+  * Pytorch
+  * Tensorflow
+  * Linux
 
 Publications
 ======
@@ -57,8 +54,8 @@ Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Reviewers for: IEEE Transactions on Medical Imaging

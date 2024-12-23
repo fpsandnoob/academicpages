@@ -3,7 +3,7 @@ title: "One Paper accepted to ACM MM (Oral)"
 collection: talks
 # type: "Conference proceedings talk"
 permalink: /talks/2024-10-08-paper-accpeted-vss
-venue: "Testing Institute of America 2014 Annual Conference"
+venue: "ACM Multimedia 2024"
 date: 2024-07-29
 # location: "Los Angeles, CA"
 ---
